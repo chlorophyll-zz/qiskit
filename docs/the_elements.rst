@@ -4,6 +4,9 @@
 The Qiskit Elements
 ###################
 
+.. image:: /images/figures/qiskit-framework.png
+   :alt: The Qiskit framework.
+
 .. _Terra:
 
 =====
@@ -50,7 +53,7 @@ Qiskit Terra is organized in six main modules:
    #. A `Provider <https://qiskit.org/documentation/api/qiskit.providers.BaseProvider.html>`__
       is an entity that
       provides access to a group of different backends (for example,
-      backends available through the `IBM Q Experience <https://quantum-computing.ibm.com>`__).
+      backends available through the `IBM Quantum Experience <https://quantum-computing.ibm.com>`__).
       It interacts with those backends to, for example,
       find out which ones are available, or retrieve an instance of a particular backend.
    #. `Backend <https://qiskit.org/documentation/api/qiskit.providers.BaseBackend.html>`__
